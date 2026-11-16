@@ -38,7 +38,7 @@ module.exports.run = async function({ api, event }) {
 │📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸:
 │https://fb.com/YOUR_FACEBOOK_USERNAME
 │💬 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽:
-│https://wa.me/YOUR_WHATSAPP_NUMBER
+│https://wa.me/8801621451063
 └───────────────⭓
 
 ┌───────────────⭓

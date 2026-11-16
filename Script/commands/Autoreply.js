@@ -42,7 +42,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     "good night": "Sweet Dream babu… তবে আগে ফরহাদ বস কে GN বলে নিও 😏💤",
     "tor ball": "~ এখনো বাল উঠে নাই নাকি তোমার?? 🤖",
     "fahu": "উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",
-    "owner": "‎[𝐎𝐖𝐍𝐄𝐑:☞ MD FARHAD UDDIN ☜\nFacebook: https://www.facebook.com/profile.php?id=100044713412032\nWhatsApp: +8801882333052",
+    "owner": "‎[𝐎𝐖𝐍𝐄𝐑:☞ MD FARHAD UDDIN ☜\nFacebook: https://www.facebook.com/profile.php?id=61595699687916\nWhatsApp: 01621451063",
     "admin": "He is MD FARHAD UDDIN তাকে সবাই Admin MD FARHAD UDDIN হিসেবে চিনে😘☺️",
     "babi": "এ তো হাছিনা হে মেরে দিলকি দারকান হে মেরি জান হে😍.",
     "chup": "তুই চুপ চুপ কর পাগল ছাগল",
