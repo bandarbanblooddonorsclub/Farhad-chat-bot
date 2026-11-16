@@ -1,12 +1,12 @@
 # 🚀 FAHU-FCA: Unofficial Facebook Chat API
 
-[![npm](https://img.shields.io/npm/v/fahu-fca)](https://www.npmjs.com/package/fahu-fca) [![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE) [![GitLab](https://img.shields.io/badge/GitLab-fahu--fca-FC6D26?logo=gitlab)](https://gitlab.com/md-farhad-uddin/fahu-fca)
+[![npm](https://img.shields.io/npm/v/fahu-fca)](https://www.npmjs.com/package/fahu-fca) [![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE) [![GitHub](https://img.shields.io/badge/GitHub-fahu--fca-181717?logo=github)](https://github.com/bandarbanblooddonorsclub/Farhad-chat-bot/tree/fahu-api/vendor/fahu-fca)
 
 **A lightweight, fast, and unofficial API to interact with Facebook Chat programmatically — ideal for building bots, automation systems, and custom messaging tools.**
 
 **This project is customized and enhanced for improved performance and stability.**
 
-**Customized by [MD FARHAD UDDIN](https://gitlab.com/md-farhad-uddin)**  
+**Customized by [MD FARHAD UDDIN](https://github.com/bandarbanblooddonorsclub)**  
 **FCA Enhanced by [NeoKEX](https://github.com/lazyneoaz)**
 
 ## ✨ Features
@@ -103,8 +103,8 @@ api.refreshFcaConfig();
 ## 🔗 Links
 
 - [npm](https://www.npmjs.com/package/fahu-fca)
-- [GitLab](https://gitlab.com/md-farhad-uddin/fahu-fca)
-- [Issues](https://gitlab.com/md-farhad-uddin/fahu-fca/-/issues)
+- [GitLab](https://github.com/bandarbanblooddonorsclub/Farhad-chat-bot/tree/fahu-api/vendor/fahu-fca)
+- [Issues](https://github.com/bandarbanblooddonorsclub/Farhad-chat-bot/issues)
 
 ## 📄 License
 

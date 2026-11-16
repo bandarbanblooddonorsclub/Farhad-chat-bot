@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/md-farhad-uddin/fahu-fca.git"
+    "url": "git+https://github.com/bandarbanblooddonorsclub/Farhad-chat-bot.git"
   },
   "author": "MD FARHAD UDDIN",
   "contributors": [
@@ -21,9 +21,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/md-farhad-uddin/fahu-fca/-/issues"
+    "url": "https://github.com/bandarbanblooddonorsclub/Farhad-chat-bot/issues"
   },
-  "homepage": "https://gitlab.com/md-farhad-uddin/fahu-fca",
+  "homepage": "https://github.com/bandarbanblooddonorsclub/Farhad-chat-bot/tree/fahu-api/vendor/fahu-fca",
   "keywords": [
     "facebook",
     "facebook-api",
