@@ -242,18 +242,29 @@ module.exports.config = {
 
 ```bash
 # 1. প্রজেক্ট ডাউনলোড / ক্লোন করুন
-git clone https://gitlab.com/YOUR_GITLAB_USERNAME/md-farhad-uddin.git
-cd Md-Farhad-Uddin
+git clone -b fahu-api https://github.com/bandarbanblooddonorsclub/Farhad-chat-bot.git
+cd Farhad-chat-bot
 
 # 2. Dependencies ইনস্টল করুন
 npm install
 
-# 3. appstate.json-এ আপনার Facebook cookie বসান
-#    (ফাইলটি রুটে আছে: "এখানে আপনার কুকি দিবেন ✅" — এটি রিপ্লেস করুন)
+# 3. Fahu API-এর dependencies ইনস্টল করুন
+cd fahu-api && npm install && cd ..
 
-# 4. বট চালু করুন
-node fahu.js
+# 4. config তৈরি করুন (টেমপ্লেট থেকে কপি)
+cp config.example.json config.json
+cp appstate.example.json appstate.json
+
+# 5. config.json ও appstate.json-এ আপনার তথ্য বসান
+#    config.json  → DEVELOPER / ADMINBOT-এ আপনার Facebook UID
+#    appstate.json → আপনার Facebook cookie (C3C FbState extension দিয়ে পাবেন)
+
+# 6. বট + API একসাথে চালু করুন
+./start-fahu.sh
 ```
+
+> `config.json` ও `appstate.json` `.gitignore`-এ আছে — কখনোই GitHub-এ যাবে না।
+> তাই ক্লোন করার পর অবশ্যই উপরের **ধাপ ৪** চালাতে হবে, নাহলে বট চলবে না।
 
 **রান করার ৩টি উপায়:**
 

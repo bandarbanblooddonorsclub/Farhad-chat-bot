@@ -28,3 +28,7 @@ fahu-api/data/videos/*
 fahu-api/public/files/*
 fahu-api/public/fallback/*
 fahu-api/data/*.tmp
+
+# example templates must stay tracked
+!appstate.example.json
+!config.example.json

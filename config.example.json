@@ -1,0 +1,75 @@
+{
+  "Author": "MD FARHAD UDDIN",
+  "version": "3.0.0",
+  "language": "en",
+  "adminOnly": false,
+  "autoSent": true,
+  "allowInbox": true,
+  "DeveloperMode": false,
+  "autoCreateDB": true,
+  "autoClean": true,
+  "notiGroup": true,
+  "NOTIFICATION": true,
+  "EMAIL": "",
+  "PASSWORD": "",
+  "OTPKEY": "",
+  "BOTNAME": "𝐌𝐃 𝐅𝐀𝐑𝐇𝐀𝐃 𝐔𝐃𝐃𝐈𝐍",
+  "FAHU_API": "http://127.0.0.1:4040",
+  "PREFIX": "/",
+  "usePrefix": false,
+  "reactUnsend": [
+    "😡",
+    "🤧",
+    "😤",
+    "😠"
+  ],
+  "ADMINBOT": [
+    "YOUR_FACEBOOK_UID"
+  ],
+  "DEVELOPER": [
+    "YOUR_FACEBOOK_UID"
+  ],
+  "APPSTATEPATH": "appstate.json",
+  "FCAOption": {
+    "selfListen": false,
+    "listenEvents": true,
+    "autoReconnect": true,
+    "online": true,
+    "autoMarkDelivery": false,
+    "autoMarkRead": false,
+    "enableTypingIndicator": true,
+    "typingDuration": 100
+  },
+  "Login": {
+    "autoRetryLogin": true,
+    "maxLoginRetries": 100,
+    "reconnectOnListenError": true,
+    "maxReconnectAttempts": 100,
+    "reconnectBaseDelay": 3000,
+    "reconnectMaxDelay": 30000,
+    "persistAppState": true,
+    "backupAppState": true
+  },
+  "DATABASE": {
+    "sqlite": {
+      "storage": "data.sqlite"
+    }
+  },
+  "commandDisabled": [],
+  "eventDisabled": [],
+  "help": {
+    "autoUnsend": true,
+    "delayUnsend": 20
+  },
+  "daily": {
+    "cooldownTime": 43200000
+  },
+  "adminUpdate": {
+    "sendNoti": true,
+    "autoUnsend": true,
+    "timeToUnsend": 600
+  },
+  "god": {
+    "enable": true
+  }
+}
