@@ -1,0 +1,28 @@
+{
+  "name": "fahu-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fahu API \u2014 the service backend for the MD FARHAD UDDIN chat bot (simsimi, quiz, YouTube, avatar canvas, image\u2192prompt, 4K upscale, anime video)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.65",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "multer": "^2.5.0",
+    "youtube-dl-exec": "^3.0.4"
+  },
+  "license": "MIT",
+  "author": "MD FARHAD UDDIN",
+  "optionalDependencies": {
+    "playwright-core": "^1.47.2"
+  }
+}
