@@ -12,6 +12,6 @@ module.exports.config = {
 };
 
 module.exports.run = async function({ api, event }) {
-    const message = "আমাদের অফিসিয়াল Repository:\nhttps://gitlab.com/YOUR_GITLAB_USERNAME/md-farhad-uddin.git";
+    const message = "আমাদের অফিসিয়াল Repository:\nhttps://github.com/bandarbanblooddonorsclub/Farhad-chat-bot.git";
     return api.sendMessage(message, event.threadID, event.messageID);
 };

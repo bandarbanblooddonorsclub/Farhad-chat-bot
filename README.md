@@ -32,7 +32,7 @@
 <div align="center">
 
   <img src="https://komarev.com/ghpvc/?username=YOUR_GITLAB_USERNAME&label=Repo%20Views&color=blueviolet&style=for-the-badge" alt="Fork Views">
-  <a href="https://gitlab.com/YOUR_GITLAB_USERNAME/md-farhad-uddin">
+  <a href="https://github.com/bandarbanblooddonorsclub/Farhad-chat-bot">
     <img src="https://img.shields.io/badge/REPOSITORY-blueviolet?style=for-the-badge&logo=gitlab&logoColor=white" alt="Repository">
   </a>
 
@@ -398,7 +398,7 @@ node fahu-start.js    # supervisor wrapper (fahu.js-কে spawn করে)
 
 
 <p align="center">
-  <a href="https://gitlab.com/YOUR_GITLAB_USERNAME">
+  <a href="https://github.com/bandarbanblooddonorsclub">
     <img src="https://cdn.simpleicons.org/gitlab/FC6D26" width="48" alt="GitLab">
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;

@@ -18,7 +18,7 @@ const axios = require("axios");
 function FAHU_4K_SOURCE() {
   const base =
     (global.config && global.config.FAHU_API) ||
-    "https://gitlab.com/YOUR_GITLAB_USERNAME/fahu-api/-/raw/main";
+    "http://127.0.0.1:4040";
   return String(base).replace(/\/+$/, "") + "/commands/4k.js";
 }
 

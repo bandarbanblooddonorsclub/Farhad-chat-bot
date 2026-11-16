@@ -5,7 +5,7 @@
  */
 function FAHU_API_JSON() {
   var base = (global.config && global.config.FAHU_API) ||
-    "https://gitlab.com/YOUR_GITLAB_USERNAME/fahu-api/-/raw/main";
+    "http://127.0.0.1:4040";
   return String(base).replace(/\/+$/, "") + "/API.json";
 }
 
@@ -47,7 +47,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     "babi": "এ তো হাছিনা হে মেরে দিলকি দারকান হে মেরি জান হে😍.",
     "chup": "তুই চুপ চুপ কর পাগল ছাগল",
     "Assalamualaikum": "Walaikumassalam❤️‍🩹",
-    "fork": "https://gitlab.com/YOUR_GITLAB_USERNAME/md-farhad-uddin.git",
+    "fork": "https://github.com/bandarbanblooddonorsclub/Farhad-chat-bot.git",
     "kiss me": "তুমি পঁচা তোমাকে কিস দিবো না 🤭",
     "thanks": "এতো ধন্যবাদ না দিয়ে আমার বস ফরহাদ রে তোর গার্লফ্রেন্ড টা দিয়ে দে..!🐸🥵",
     "i love you": "মেয়ে হলে আমার বস ফরহাদ এর ইনবক্সে এখুনি গুঁতা দিন🫢😻",

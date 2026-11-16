@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/YOUR_GITLAB_USERNAME/md-farhad-uddin.git"
+    "url": "https://github.com/bandarbanblooddonorsclub/Farhad-chat-bot.git"
   },
   "keywords": [
     "bot",
@@ -30,9 +30,9 @@
   "author": "MD FARHAD UDDIN",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/YOUR_GITLAB_USERNAME/md-farhad-uddin/issues"
+    "url": "https://github.com/bandarbanblooddonorsclub/Farhad-chat-bot/issues"
   },
-  "homepage": "https://gitlab.com/YOUR_GITLAB_USERNAME/md-farhad-uddin/issues",
+  "homepage": "https://github.com/bandarbanblooddonorsclub/Farhad-chat-bot/issues",
   "dependencies": {
     "@miraipr0ject/assets": "^1.0.9",
     "axios": "^1.6.0",

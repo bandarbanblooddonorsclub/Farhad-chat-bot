@@ -28,7 +28,7 @@ function fahuBase() {
   return (
     fromConfig ||
     process.env.FAHU_API ||
-    "https://gitlab.com/YOUR_GITLAB_USERNAME/fahu-api/-/raw/main"
+    "http://127.0.0.1:4040"
   );
 }
 

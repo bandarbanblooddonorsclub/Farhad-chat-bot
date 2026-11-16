@@ -5,7 +5,7 @@
  */
 function FAHU_API_JSON() {
   var base = (global.config && global.config.FAHU_API) ||
-    "https://gitlab.com/YOUR_GITLAB_USERNAME/fahu-api/-/raw/main";
+    "http://127.0.0.1:4040";
   return String(base).replace(/\/+$/, "") + "/API.json";
 }
 
