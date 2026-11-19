@@ -1,0 +1,39 @@
+# Render Blueprint — MD FARHAD UDDIN chat bot + Fahu API
+# Docs: https://render.com/docs/blueprint-spec
+#
+# How to use:
+#   1. Push this repo to GitHub (done).
+#   2. On Render: New → Blueprint → select this repo → Deploy.
+#      (or create a Web Service manually with the commands below)
+#   3. In the dashboard, set the environment variables marked sync: false.
+#
+# Free-plan note: Render free web services sleep after ~15 min of
+# inactivity. Point a free uptime pinger (e.g. UptimeRobot) at
+#   https://<your-service>.onrender.com/health
+# every 5 minutes to keep the bot online 24/7.
+services:
+  - type: web
+    name: fahu-bot
+    runtime: node
+    plan: free
+    buildCommand: npm install && cd fahu-api && npm install
+    startCommand: bash render-start.sh
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.x
+      # ── Facebook login (fill these in the Render dashboard) ──
+      - key: FB_EMAIL
+        sync: false
+      - key: FB_PASSWORD
+        sync: false
+      - key: FB_OTPKEY
+        sync: false
+      - key: FB_UID
+        sync: false
+      - key: BOT_PREFIX
+        value: /
+      # ── Optional: paste the full appstate.json content instead of
+      #    email/password login (more reliable on datacenter IPs) ──
+      - key: APPSTATE_JSON
+        sync: false
